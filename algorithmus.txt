@@ -1,0 +1,34 @@
+Feld erstellen
+Fragen wer anfängt
+while (Felder frei und kein*e Spieler*in
+		gewonnen)
+	Spieler*in 1 wählt ein Feld
+	Spieler*in 2 wählt ein Feld
+
+Feld erstellen:
+	3 Spalten und 3 Zeilen
+	X oder O oder leer
+	Am Anfang leer
+	//In java 2dim char-Array
+
+Fragen wer anfängt:
+  Spieler*in
+  Eingabe von Zahl/char oder Zufällig
+
+Feld wählen:
+  Koordinaten einlesen
+  2 Zahlen
+
+spieler*in gewonnen:
+	Reihe, Zeile oder Diagonale mit Zeichen
+	    der*des Spieler*in gefüllt
+	
+	
+  0 1 2
+--------
+0| | | |
+--------
+1| | | |
+--------
+2| | | |
+--------
