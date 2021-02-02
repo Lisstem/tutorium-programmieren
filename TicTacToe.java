@@ -10,19 +10,23 @@ public class TicTacToe {
     char[][] field = new char[3][3];
     for (int x = 0; x < field.length; x++) {
     	for (int y = 0; y < field[x].length; y++) {
-    	  field[x][y] = 'X';
+    	  field[x][y] = ' ';
     	}
     }
     return field;
   }
   
   public static void printField(char[][] field) {
+  	System.out.println("  0 1 2");
     for (int x = 0; x < field.length; x++) {
+    	System.out.println("--------");
+      System.out.print(x + "|");
     	for (int y = 0; y < field[x].length; y++) {
-    	  System.out.print(field[x][y]);
+    	  System.out.print(field[x][y] + "|");
     	}
     	System.out.println("");
     }
+    System.out.println("--------");
   }
   
   public static boolean getFirstPlayer() {
