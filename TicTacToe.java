@@ -17,16 +17,25 @@ public class TicTacToe {
   }
   
   public static void printField(char[][] field) {
-  	System.out.println("  0 1 2");
+    String strich = "--"; // horizontaler Strich
+    
+    // Ausgabe der Zahlen für die Spalten
+    System.out.print(" ");
+    for (int y = 1; y <= field[0].length; y++) {
+    	strich += "--"; // Länge des honrizontalen Strichs bestimmen
+    	System.out.print(" " + y);
+  	}
+    System.out.println("");
+    
     for (int x = 0; x < field.length; x++) {
-    	System.out.println("--------");
+    	System.out.println(strich);
       System.out.print(x + "|");
     	for (int y = 0; y < field[x].length; y++) {
     	  System.out.print(field[x][y] + "|");
     	}
     	System.out.println("");
     }
-    System.out.println("--------");
+    System.out.println(strich);
   }
   
   public static boolean getFirstPlayer() {
