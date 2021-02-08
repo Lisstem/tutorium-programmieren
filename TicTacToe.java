@@ -109,14 +109,15 @@ public class TicTacToe {
   }
   
   public static int getCoordinate(Scanner scanner) {
-    int coordinate;
-    try {
-      coordinate = scanner.nextInt();
-    } catch (InputMismatchException ex) {
-      System.out.println("Bitte gebe eine Zahl ein.");
-      // token aus scanner entfernen
-      scanner.next();
-      coordinate = getCoordinate(scanner);    
+    int coordinate = -1;
+    while (coordinate < 0) {
+      try {
+        coordinate = scanner.nextInt();
+      } catch (InputMismatchException ex) {
+        System.out.println("Bitte gebe eine Zahl ein.");
+        // token aus scanner entfernen
+        scanner.next();  
+      }
     }
     return coordinate;
   }

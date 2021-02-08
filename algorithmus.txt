@@ -24,7 +24,7 @@ spieler*in gewonnen:
 	    der*des Spieler*in gefüllt
 	
 	
-  0 1 2
+  0 1 2 
 --------
 0| | | |
 --------
