@@ -1,0 +1,22 @@
+Wir wollen die Verwaltung von mehreren Häusern und Wohnungen mit ihren Räumen modellieren.
+Wohnungen besitzen mehrere Räume, einen Namen und immer einen Eingangsraum.
+Räume selbst besitzen ebenfalls einen Namen, sowie eine Größe.
+Häuser bestehen aus Wohnungen und Räumen, besitzen eine Adresse und haben immer eine Wohnung/einen Raum nach dem Eingang.
+Die Größe von Häusern/Wohnungen ist die Summe der Größen der Wohnungen und Räumen, die sie besitzen.
+
+Bonusaufgabe:
+Räume können zu Wohnungen und anderen Räumen führen.
+
+Klassen:
+- Haus
+  - Wohnungen und Räume: Ort[]
+  - Adresse: String
+  - Eingangsraum/-Wohnung: Ort
+  - Größe: double (berechnen)
+- Wohnung extends Ort
+  - Räume: Raum[]
+  - Eingangsraum: Raum
+- Raum extends Ort
+- Ort
+  - Namen: String
+  - Größe: double (berechnen)
