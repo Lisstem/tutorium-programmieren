@@ -1,0 +1,6 @@
+Man setzt ein neugeborenes Kaninchenpaar, ein Männchen und ein Weibchen, in einem Feld aus.
+Kaninchen sind nach einem Monat zeugungsfähig, so dass am Ende ihres zweiten Monats das Weibchen ein neues Kaninchenpaar gebären kann.
+Man geht davon aus, dass diese Kaninchen nicht sterben und dass jedes Weibchen jeden Monat vom zweiten Monat an immer ein weiteres Paar, bestehend aus einem Männchen und einem Weibchen, gebären wird.
+
+Wie viele Kaninchenpaare leben im 12 Monat?
+-> Fibonacci Zahlen
